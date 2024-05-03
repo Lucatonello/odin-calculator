@@ -1,0 +1,58 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    background: black    ;
+    height: 580px;
+    width: 400px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+#display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 120px;
+    width: 400px;
+    background-color: black;
+    margin-bottom: 10px; 
+    font-size: 90px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+button {
+    height: 80px;
+    width: 120px;
+    font-size: 29px;
+    border-radius: 10px;
+    background-color: #FF8C00;
+}
+#zero {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding-left: 95.8715px;
+    padding-right: 95.8715px; 
+}
+
+
+.num, .dot{
+    background-color:#737272;
+    color: white;
+}
+.clear, .negative, .percent {
+    background-color: #A9A9A9;
+}
+.division, .multiply, .subtract, .add, .equal {
+    color: white;
+}

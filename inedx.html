@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="container">
+        <div id="display">0</div>
+            <div class="row">
+                <button type="button" onclick="clearDisplay()" class="clear" value="clear">C</button>
+                <button type="button" onclick="changeSign()" class="negative" value="negative">+/-</button>
+                <button type="button" onclick="convertToPercent()" class="percent" value="percent">%</button>
+                <button type="button" onclick="storeOperator('division')" class="division" value="division">/</button>
+
+            </div>
+            <div class="row">
+                <button type="button" onclick="storeNumber(7)" class="num" value="7">7</button>
+                <button type="button" onclick="storeNumber(8)" class="num" value="8">8</button>
+                <button type="button" onclick="storeNumber(9)" class="num" value="9">9</button>
+                <button type="button" onclick="storeOperator('multiply')" class="multiply" value="multiply">*</button>
+            </div>
+            <div class="row">
+                <button type="button" onclick="storeNumber(4)" class="num" value="4">4</button>
+                <button type="button" onclick="storeNumber(5)" class="num" value="5">5</button>
+                <button type="button" onclick="storeNumber(6)" class="num" value="6">6</button>
+                <button type="button" onclick="storeOperator('subtract')" class="subtract" value="subtract">-</button>
+
+            </div>
+            <div class="row">
+                <button onclick="storeNumber(1)" class="num">1</button>
+                <button type="button" onclick="storeNumber(2)" class="num" value="2">2</button>
+                <button type="button" onclick="storeNumber(3)" class="num" value="3">3</button>
+                <button type="button" onclick="storeOperator('add')" class="add" value="add">+</button>
+            </div>
+            <div class="row">
+                <button type="button" onclick="storeNumber(0)" id="zero" class="num" value="0">0</button>
+                <button type="button" onclick="dontDoDat()" class="dot" value="dot">.</button>
+                <button type="button" onclick="calculateResult()" class="equal" value="equal">=</button>
+            </div>
+    </div>
+    </div>
+        
+</body>
+</html>
